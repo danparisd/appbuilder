@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <!-- Build Environment -->
+  <build>
+    <gradle offline="false"/>
+    <folder name="jdk">C:\Program Files\Amazon Corretto\jdk1.8.0_242</folder>
+    <folder name="android.sdk">C:\sdk</folder>
+    <folder name="app.builder">C:\Program Files (x86)\SIL\Scripture App Builder</folder>
+    <folder name="gradle.cache"></folder>
+    <folder name="apk.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Apk Output</folder>
+    <folder name="ipa.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Ipa Output</folder>
+    <folder name="sim.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Sim Output</folder>
+    <folder name="epub.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Epub Output</folder>
+    <folder name="html.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\HTML Output</folder>
+    <folder name="build">C:\Users\parisd\AppData\Local\Temp\App Builder\build</folder>
+    <folder name="mappings"></folder>
+
+    <features type="build">
+      <feature name="after-build-install" value="false" />
+      <feature name="after-build-run" value="false" />
+      <feature name="after-build-close-window" value="false" />
+    </features>
+  </build>
+
+  <!-- Default Folders -->
+  <default-folders>
+    <folder name="app.def">C:\Users\parisd\Documents\App Builder\Scripture Apps\App Projects</folder>
+    <folder name="keystore">C:\Users\parisd\Documents\App Builder\keystore</folder>
+    <folder name="keyman"></folder>
+    <folder name="provisioning-profile"></folder>
+    <folder name="downloads">C:\Users\parisd\Downloads</folder>
+    <folder name="analytics"></folder>
+    <folder name="audio"></folder>
+    <folder name="audio-timing"></folder>
+    <folder name="books">C:\Users\parisd\Downloads</folder>
+    <folder name="book-collections"></folder>
+    <folder name="contents"></folder>
+    <folder name="fonts"></folder>
+    <folder name="images"></folder>
+    <folder name="aeneas"></folder>
+    <folder name="espeak"></folder>
+    <folder name="libreoffice"></folder>
+    <folder name="slideshows"></folder>
+    <folder name="verses"></folder>
+  </default-folders>
+
+  <!-- Defaults -->
+  <package-name></package-name>
+
+  <!-- Screen Position -->
+  <screen-position width="800" height="550" x="560" y="245" />
+
+  <!-- File Include -->
+  <file-include type="audio" mode="link" />
+
+  <!-- User Interface Language -->
+  <language value="en"/>
+
+  <!-- Open App Definitions -->
+  <apps>
+    <app>
+      <name>testapp43</name>
+      <filename>C:\Users\parisd\Documents\App Builder\Scripture Apps\App Projects\testapp43\testapp43.appDef</filename>
+    </app>
+  </apps>
+
+  <!-- Preferences -->
+  <preferences>
+    <preference name="left-pane-width">220</preference>
+  </preferences>
+
+</settings>
