@@ -3,16 +3,16 @@
   <!-- Build Environment -->
   <build>
     <gradle offline="false"/>
-    <folder name="jdk">C:\Program Files\Amazon Corretto\jdk1.8.0_242</folder>
-    <folder name="android.sdk">C:\sdk</folder>
-    <folder name="app.builder">C:\Program Files (x86)\SIL\Scripture App Builder</folder>
+    <folder name="jdk">/usr/lib/jvm/java-8-openjdk-amd64</folder>
+    <folder name="android.sdk">/opt/android-sdk-linux</folder>
+    <folder name="app.builder">/usr/share/scripture-app-builder</folder>
     <folder name="gradle.cache"></folder>
-    <folder name="apk.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Apk Output</folder>
-    <folder name="ipa.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Ipa Output</folder>
-    <folder name="sim.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Sim Output</folder>
-    <folder name="epub.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\Epub Output</folder>
-    <folder name="html.output">C:\Users\parisd\Documents\App Builder\Scripture Apps\HTML Output</folder>
-    <folder name="build">C:\Users\parisd\AppData\Local\Temp\App Builder\build</folder>
+    <folder name="apk.output">/root/App Builder/Scripture Apps/Apk Output</folder>
+    <folder name="ipa.output">/root/App Builder/Scripture Apps/Ipa Output</folder>
+    <folder name="sim.output">/root/App Builder/Scripture Apps/Sim Output</folder>
+    <folder name="epub.output">/root/App Builder/Scripture Apps/Epub Output</folder>
+    <folder name="html.output">/root/App Builder/Scripture Apps/HTML Output</folder>
+    <folder name="build">/root/App Builder/Scripture Apps/build</folder>
     <folder name="mappings"></folder>
 
     <features type="build">
@@ -24,15 +24,15 @@
 
   <!-- Default Folders -->
   <default-folders>
-    <folder name="app.def">C:\Users\parisd\Documents\App Builder\Scripture Apps\App Projects</folder>
-    <folder name="keystore">C:\Users\parisd\Documents\App Builder\keystore</folder>
+    <folder name="app.def">/root/App Builder/Scripture Apps/App Projects</folder>
+    <folder name="keystore">/root/App Builder/keystore</folder>
     <folder name="keyman"></folder>
     <folder name="provisioning-profile"></folder>
-    <folder name="downloads">C:\Users\parisd\Downloads</folder>
+    <folder name="downloads">/root/downloads</folder>
     <folder name="analytics"></folder>
     <folder name="audio"></folder>
     <folder name="audio-timing"></folder>
-    <folder name="books">C:\Users\parisd\Downloads</folder>
+    <folder name="books">/root/downloads</folder>
     <folder name="book-collections"></folder>
     <folder name="contents"></folder>
     <folder name="fonts"></folder>
@@ -60,7 +60,7 @@
   <apps>
     <app>
       <name>testapp43</name>
-      <filename>C:\Users\parisd\Documents\App Builder\Scripture Apps\App Projects\testapp43\testapp43.appDef</filename>
+      <filename>/root/App Builder/Scripture Apps/App Projects/testapp43/testapp43.appDef</filename>
     </app>
   </apps>
 

@@ -1,0 +1,16 @@
+version: '3.2'
+
+services:
+  builder:
+    image: bibletranslationtools/appbuilder
+    container_name: builder
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: "./App Builder"
+        target: "/root/App Builder"
+      - type: bind
+        source: "./SIL"
+        target: "/root/.local/SIL"
+    command: bash -c "/usr/share/scripture-app-builder/sab.sh -load "testapp43" -build"

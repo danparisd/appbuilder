@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<app-definition type="SAB" program-version="6.2">
+<app-definition type="SAB" program-version="6.2.2">
   <project-name>testapp43</project-name>
   <project-description></project-description>
 
   <app-name lang="default">testapp43</app-name>
-  <apk-filename append-version="true"></apk-filename>
+  <apk-filename append-version="true">testapp43.apk</apk-filename>
   <package>org.wycliffeassociates.testapp43</package>
   <version code="1" name="1.0"/>
   <android-sdk min="14"/>
@@ -13,7 +13,7 @@
   <ipa-version build="1" name="1.0"/>
 
   <signing>
-    <keystore>C:\Users\parisd\Documents\App Builder\keystore\keystore1.keystore</keystore>
+    <keystore>/root/App Builder/keystore/keystore1.keystore</keystore>
     <keystore-password>OMVQ3OAXjjg=</keystore-password>
     <alias>key1</alias>
     <alias-password>OMVQ3OAXjjg=</alias-password>
@@ -150,6 +150,10 @@
   </features>
 
   <firebase>
+
+    <features type="firebase">
+      <feature name="firebase-analytics" value="false"/>
+    </features>
   </firebase>
 
   <fonts>
@@ -237,7 +241,7 @@
       <group>NT</group>
       <sub-group>Gospel</sub-group>
       <filename>matt.usfm</filename>
-      <source>C:\Users\parisd\Downloads\matt.usfm</source>
+      <source>~/App Builder/Scripture Apps/App Projects/testapp43/testapp43_data/books/C01/matt.usfm</source>
     </book>
   </books>
 
@@ -3086,13 +3090,13 @@
   </translation-mappings>
 
   <images type="launcher">
-    <image width="36" height="36">drawable-ldpi\ic_launcher.png</image>
-    <image width="48" height="48">drawable-mdpi\ic_launcher.png</image>
-    <image width="72" height="72">drawable-hdpi\ic_launcher.png</image>
-    <image width="96" height="96">drawable-xhdpi\ic_launcher.png</image>
-    <image width="144" height="144">drawable-xxhdpi\ic_launcher.png</image>
-    <image width="192" height="192">drawable-xxxhdpi\ic_launcher.png</image>
-    <image width="512" height="512">drawable-web\ic_launcher.png</image>
+    <image width="36" height="36">drawable-ldpi/ic_launcher.png</image>
+    <image width="48" height="48">drawable-mdpi/ic_launcher.png</image>
+    <image width="72" height="72">drawable-hdpi/ic_launcher.png</image>
+    <image width="96" height="96">drawable-xhdpi/ic_launcher.png</image>
+    <image width="144" height="144">drawable-xxhdpi/ic_launcher.png</image>
+    <image width="192" height="192">drawable-xxxhdpi/ic_launcher.png</image>
+    <image width="512" height="512">drawable-web/ic_launcher.png</image>
   </images>
 
   <adaptive-icon>

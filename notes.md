@@ -9,3 +9,12 @@ need to add SIL repo and install SAB
 
 `./sab.sh -load "testapp43" -build`
 
+`~/.local/SIL/App Builder` has the settings.xml file as in this repo
+
+/App Builder/keystore/keystore1.keystore is where I put the keystore for testing. Can be any android signing keystore. Signing pw for the keystore goes in the appDef file. There is a random one I generated there. We may be able to automate the generation of this keystore.
+
+settings.xml has lots of stuff in it. Most of it, maybe all of it, can be the same for every build. Will need more testing. If this can be standardized it can be baked into the image instead of loaded in with docker-compose.
+
+package-list-minimal.txt has the android sdk components we need. Just needed to build the docker container image.
+
+If you put a keystore and pw in the right place, you should be able to build a test apk with `docker-compose up`
